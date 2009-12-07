@@ -20,25 +20,25 @@
 	 
 		<div id="header-inner">
 	
-       
+        <div id="headGauche">
+		
           <div id="logoHead">
 	           <?php if (!empty($logo)): ?>
-		           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-		            <img src="<?php print $logo; ?>" style="height:209px;" alt="<?php print t('Home'); ?>"/>
-		          </a>
+		           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/></a>
 	          <?php endif; ?>
-	           
+	       </div>   
+		   
          <div id="menuImg">
               <?php if (!empty($navPictos)): ?>
 		           <?php print $navPictos; ?>
 	          <?php endif; ?>
           </div>
 
-          </div>
+          </div><!-- /headGauche -->
 
           <div id="menuHead">
 	        
-	          <?php if (!empty($menuHaut)): ?>
+	    <?php if (!empty($menuHaut)): ?>
 			   <?php print $menuHaut; ?>
         <?php endif; ?>
 

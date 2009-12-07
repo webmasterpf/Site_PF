@@ -9,7 +9,14 @@ Template page d'accueil custom
 	
 
 }
-
+/*Partie gauche du header*/
+#headGauche{
+	width:200px;
+	height:259px;
+	float:left;
+	display:block;
+	margin:0;
+}
 #logoHead{
 	height:209px !important;
 	width:200px;
@@ -23,6 +30,34 @@ Template page d'accueil custom
 	padding:40px 0 33px;
 	margin:0;
 }
+/*Menu pictos header*/
+#menuImg{
+	height:50px;
+	width:200px;
+	float:left;
+	background:#f97d0d;
+
+}
+#navPicto{
+border:0;
+height:48px;
+width:200px;
+
+}
+
+#navPicto td{
+border:0;
+height:39px;
+width:38px;
+display:block;
+}
+
+#navPicto a {
+	border:0;
+	}
+#navPicto a :hover{}
+
+/*Menu principal haut du header*/
 #menuHead{
 	float:left;
 	height:59px;
@@ -49,15 +84,8 @@ padding:160px 0 0 10px;
 margin:0;
 }
 
-#menuImg{
-	height:50px;
-	width:200px;
-	float:left;
-	background:#f97d0d;
-
-}
-
-
+/*FIN CSS HEADER*/
+/*****************/
 #mainPage{
 	margin:auto;
 	background:#ffffff url("../images/bg_colonne_g_rp.jpg") repeat-y top left;
