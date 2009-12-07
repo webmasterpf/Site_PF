@@ -285,10 +285,11 @@ ul.nice-menu li {
 
 ul.nice-menu a {
 	display: block;
-	color: 156597;
+	color: #156597;
 	text-decoration:none;
 	background: #ebebeb;
 	height:30px;
+	
 }
 ul.nice-menu a:hover {
 color:#ebebeb;

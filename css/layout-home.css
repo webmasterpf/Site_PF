@@ -50,6 +50,8 @@ border:0;
 height:39px;
 width:38px;
 display:block;
+float:left;
+padding:5px;
 }
 
 #navPicto a {

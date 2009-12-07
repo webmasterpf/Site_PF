@@ -14,6 +14,7 @@ stylesheets[all][] = css/nice_menus_default.css
 
 regions[header] = Header
 regions[menuHaut] = Menu Header
+regions[navPictos] = Nav Picto Header
 regions[edito] = Edito
 regions[content_top] = Content top
 regions[left] = Colonne Gauche
