@@ -67,16 +67,25 @@ padding: 5px;
 }
 /**style du fil d'ariane**/
 .breadcrumb {
-color:#C0c0c0;
+color:#156597;
 text-decoration:none;
 }
 .breadcrumb a{
-color:#FFF;
+color:#156597;
 text-decoration:none;
 }
 .breadcrumb a:hover{
-color:#000;
+color:#F97D0D;
 text-decoration:underline;
+}
+/**style du bloc recherche**/
+#block-search-0{
+ padding: 5px;
+ background:#F3F3F3;
+ text-align:center;
+}
+#edit-search-block-form-1{
+background: orange;
 }
 /**----CONTENT BOTTOM---***/
 #content-top{}

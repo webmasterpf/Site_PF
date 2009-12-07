@@ -62,8 +62,8 @@ height: 100%;
 /*//////SOUS ENTETE/////*/
 #content-top{
 	margin:0 auto;
-	padding:5px;
-	width:590px;
+	padding:0;
+	width:auto;
 	height:auto;
 	/*background-color: #999;*/
 	}
