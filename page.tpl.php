@@ -67,8 +67,13 @@
         <?php if ($right): ?>
          <!--début du contenu droit -->
 		<div id="right-content">
-			<?php print $search_box; ?>
-              <?php print $right; ?>
+			<?php if ($search_box) : ?>
+				<div id="recherche">
+				<?php print $search_box ?>
+				</div><!-- //div recherche -->
+			<?php endif; ?>
+              
+			<?php print $right; ?>
         </div>
         <?php endif; ?> <!-- /sidebar-right -->
 
