@@ -11,14 +11,19 @@ margin:0 auto;
 float:left;
 }
 /*table qui contient les zones de la fiche*/
-#middle-content-lycee table {
+#fiche_tb {
 width:785px;
 margin:0 auto;
 border:0;
 }
-
+.photo_illus{
+padding: 15px;
+margin:0;
+}
 .plan{
 border:1px solid blue;
-margin:0 auto;
+margin:15px;
+width:auto;
+padding: 0;
 }
 #content-bottom-lycee{}
