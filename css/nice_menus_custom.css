@@ -196,8 +196,10 @@ ul.nice-menu-down li ul li ul,
   top: -1px;
 }
 
+/*Sous rubrique - */
 
 ul.nice-menu-down .menuparent a {
+  background: red;
 
   padding-right: 15px; /* LTR */
 }
