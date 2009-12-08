@@ -1,0 +1,24 @@
+/*Layout page lycée*/
+
+.inner column lycee{
+width:790px;
+margin:0 auto;
+float:left;
+}
+#middle-content-lycee{
+width:790px;
+margin:0 auto;
+float:left;
+}
+/*table qui contient les zones de la fiche*/
+#middle-content-lycee table {
+width:785px;
+margin:0 auto;
+border:0;
+}
+
+.plan{
+border:1px solid blue;
+margin:0 auto;
+}
+#content-bottom-lycee{}
