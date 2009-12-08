@@ -79,14 +79,18 @@ color:#F97D0D;
 text-decoration:underline;
 }
 /**style du bloc recherche**/
-#block-search-0{
+/*recherche home*/
+#block-multiblock-1{
  padding: 5px;
  background:#F3F3F3;
  text-align:center;
 }
 #edit-search-block-form-1{
 background: orange;
+width:200px;
 }
+/*recherche colonne site*/
+
 /**----CONTENT BOTTOM---***/
 #content-top{}
 .taxonomy{
