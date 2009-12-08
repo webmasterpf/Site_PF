@@ -57,6 +57,9 @@ ul.nice-menu li {
   background-image: none;
 }
 
+
+
+
 /* Overrides for Garland header. */
 #header-region ul.nice-menu li {
   margin: 0;
@@ -171,12 +174,16 @@ ul.nice-menu-down li {
 	margin:0 2px 0 0;
 	font-family: Arial;
 	font-size: 10px;
+	
 }
 
 ul.nice-menu-down li li {
   border-top: 0;
 }
-
+ul.nice-menu-down li li a{
+  background: none;
+  border-top: 0;
+}
 ul.nice-menu-down ul {
   left: 0; /* LTR */
 }
@@ -196,10 +203,8 @@ ul.nice-menu-down li ul li ul,
   top: -1px;
 }
 
-/*Sous rubrique - */
 
 ul.nice-menu-down .menuparent a {
-  background: red;
 
   padding-right: 15px; /* LTR */
 }
@@ -259,6 +264,8 @@ ul#nice-menu-1 li.active-trail a, ul#nice-menu-2 li.active-trail a{
 }
 /*********************************************************************************************/
 /*********************************************************************************************/
+
+
 /* $Id: nice_menus.css,v 1.28 2008/07/11 16:04:44 add1sun Exp $ */
 /*
   This file contains the basic logic for nice menus, and should not be
@@ -284,7 +291,7 @@ ul.nice-menu ul {
 ul.nice-menu li {
   position: relative;
 }
-
+/*REGLAGE GENERAL DE STYLE*/
 ul.nice-menu a {
 	display: block;
 	color: #156597;
