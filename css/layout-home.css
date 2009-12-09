@@ -16,6 +16,7 @@ Template page d'accueil custom
 	float:left;
 	display:block;
 	margin:0;
+	
 }
 #logoHead{
 	height:209px !important;
@@ -63,8 +64,9 @@ padding:5px;
 #menuHead{
 	float:left;
 	height:59px;
+	padding:0;
 	width:790px;
-	background:none;
+	background:#DFDFDF;
 	
 }
 
@@ -72,7 +74,7 @@ padding:5px;
 	height:200px;
 	width:790px;
 	vertical-align:bottom;
-	background:url("../images/bg_header.jpg") no-repeat top left;
+	background:url(../images/bg_header.jpg) no-repeat top left;
 	float:right;
 }
 #site-name a{
@@ -90,7 +92,7 @@ margin:0;
 /*****************/
 #mainPage{
 	margin:auto;
-	background:#ffffff url("../images/bg_colonne_g_rp.jpg") repeat-y top left;
+	background:#ffffff url(../images/bg_colonne_g_rp.jpg) repeat-y top left;
 	width:990px;
 	clear:none;
 	

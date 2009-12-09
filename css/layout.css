@@ -45,7 +45,7 @@ body {
 	padding:0;
 	width:990px;
 	height:auto;
-	background-color:none;
+	background:none;
 }
 
 /*Contenu de page  CONTENT */
@@ -72,7 +72,7 @@ height: 100%;
 #left-content{
 	float:left;
 	position:relative;
-	/*background-color:#00CC99;*/
+	padding:10px 0 0 5px;
 	width:200px;
 	left:0px;
 }
@@ -81,23 +81,23 @@ height: 100%;
 #right-content{
 	float:right;
 	position:relative;
-	/*background-color:#FF66CC;*/
+	padding:10px 0 5px 0;
 	width:200px;
 	right:0px;
 }
 /*inner content*/
 #content-inner{
-width:590px;
+width:580px;
 margin:0 auto;
 float:left;
-background-color:#EFEFEF;
+padding: 10px 0 0 0;
 }
 /*///    partie du centre   ///*/
 #middle-content{
 	float:left;
 	position:relative;
 	/*background-color:yellow;*/
-	width:590px;
+	width:580px;
 	padding:5px;
 }
 .swftools-wrapper wijering-imagerotator{

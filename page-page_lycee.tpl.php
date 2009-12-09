@@ -1,4 +1,5 @@
 <?php include "inc_header.php"; ?>  
+ <!-- ______________________ LAYOUT PAGE LYCEE _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
       <div id="contentPage">
@@ -7,9 +8,9 @@
       
        <!-- ______________________ COLONNE GAUCHE _______________________ -->
 		
-			  <?php include "inc_left_content.php";?>
+			<?php include "inc_left_content.php";?>
         
-        <div id="content-inner" class="inner column center">
+        <div id="content-inner" class="inner column lycee">
 		
 			<?php if ($breadcrumb || $title ||$content_top ): ?>
             <div id="content-top">
@@ -39,7 +40,7 @@
             </div> <!-- /#content-header -->
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
-          <div id="middle-content">
+          <div id="middle-content-lycee">
             <?php print $content; ?>
               <?php print $feed_icons; ?>
           </div> <!-- /#content-area -->
@@ -58,19 +59,14 @@
 
        
 		  <!-- ______________________ COLONNE DROITE _______________________ -->
-        <?php if ($right): ?>
-         <!--début du contenu droit -->
-		<div id="right-content">
-			     <?php print $right; ?>              
-			
-
-        </div>
-        <?php endif; ?> <!-- /sidebar-right -->
+       
+         <!--pas de colonne droite -->
+		
 
    
     	 <br clear="all">
           <?php if ($content_bottom): ?>
-            <div id="content-bottom">
+            <div id="content-bottom-lycee">
               <?php print $content_bottom; ?>
             </div><!-- /#content-bottom -->
           <?php endif; ?>

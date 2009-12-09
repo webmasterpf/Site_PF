@@ -1,4 +1,4 @@
-<?php include "header.tpl.php"; ?>
+<?php include "inc_header.php"; ?> 
  <!-- ______________________ CONTENU _______________________ -->
     
 	<div id="mainPage">
@@ -8,7 +8,10 @@
 
           <?php if ($content_top): ?>
             <div id="content-top">
-              <?php print $content_top; ?>
+			
+				<div id="recherche-home">
+			        <?php print $content_top; ?>
+			  </div><!-- //div recherche -->
             </div> <!-- /#content-top -->
           <?php endif; ?>
 
@@ -75,4 +78,4 @@
 	
 	
 	 </div> <!-- /mainPage -->
-      <?php include "footer.tpl.php";?>
+      <?php include "inc_footer.php";?>

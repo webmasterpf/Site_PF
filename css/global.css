@@ -17,7 +17,10 @@
 	padding: 3px;
 
 }
-
+.img_habillage{
+padding: 5px;
+margin:0;
+}
 .item-list ul li {
 list-style-image:none;
 list-style-position:none;
@@ -79,13 +82,28 @@ color:#F97D0D;
 text-decoration:underline;
 }
 /**style du bloc recherche**/
-#block-search-0{
+/*recherche home*/
+#recherche-home{
  padding: 5px;
- background:#F3F3F3;
+ background:#DFDFDF;
  text-align:center;
 }
-#edit-search-block-form-1{
+#recherche-home #edit-search-block-form-1{
 background: orange;
+width:200px;
+}
+#recherche-home #edit-submit img{
+margin: 4px 0 0 0;
+}
+/*recherche colonne site*/
+#block-search-0{
+ padding: 5px;
+ text-align:center;
+}
+#block-search-0 #edit-search-block-form-1{
+background: orange;
+width:150px;
+margin: 0 0 5px 0;
 }
 /**----CONTENT BOTTOM---***/
 #content-top{}
