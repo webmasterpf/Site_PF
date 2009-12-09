@@ -10,6 +10,11 @@
 		
 			  <?php if ($left): ?>
          <div id="left-content">
+		 <?php if ($search_box) : ?>
+				<div id="recherche">
+				<?php print $search_box ?>
+				</div><!-- //div recherche -->
+			<?php endif; ?>
             <?php print $left; ?>
           </div>
              <?php endif; ?> <!-- /sidebar-left -->
