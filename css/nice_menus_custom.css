@@ -195,7 +195,7 @@ ul.nice-menu-down li a:hover {
 ul.nice-menu-down li.menuparent ul {
 margin: 40px 0 0 0;
 background: none;
-list-style-type: square;
+list-style-type: round;
 }
  
 ul.nice-menu-down li.menuparent  li {

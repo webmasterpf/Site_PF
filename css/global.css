@@ -17,7 +17,10 @@
 	padding: 3px;
 
 }
-
+.img_habillage{
+padding: 5px;
+margin:0;
+}
 .item-list ul li {
 list-style-image:none;
 list-style-position:none;
@@ -82,7 +85,7 @@ text-decoration:underline;
 /*recherche home*/
 #recherche-home{
  padding: 5px;
- background:#F3F3F3;
+ background:#DFDFDF;
  text-align:center;
 }
 #recherche-home #edit-search-block-form-1{
