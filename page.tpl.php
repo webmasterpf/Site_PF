@@ -9,6 +9,12 @@
 		
 			  <?php if ($left): ?>
          <div id="left-content">
+		 <?php if ($search_box) : ?>
+				<div id="recherche">
+				<?php print $search_box ?>
+				</div><!-- //div recherche -->
+			<?php endif; ?>
+			
             <?php print $left; ?>
           </div>
              <?php endif; ?> <!-- /sidebar-left -->
@@ -67,8 +73,9 @@
         <?php if ($right): ?>
          <!--début du contenu droit -->
 		<div id="right-content">
+			     <?php print $right; ?>              
 			
-              <?php print $right; ?>
+
         </div>
         <?php endif; ?> <!-- /sidebar-right -->
 
