@@ -214,6 +214,7 @@ ul.nice-menu-down li.menuparent li a{
 ul.nice-menu-down li.menuparent li a:hover{
  color:#ebebeb;
 }
+
 ul.nice-menu-down li.active-trail ul li.active-trail a{
 	background: green;
 }
