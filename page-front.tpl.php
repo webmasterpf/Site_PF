@@ -1,4 +1,4 @@
-<?php include "header.tpl.php"; ?>
+<?php include "inc_header.php"; ?> 
  <!-- ______________________ CONTENU _______________________ -->
     
 	<div id="mainPage">
@@ -78,4 +78,4 @@
 	
 	
 	 </div> <!-- /mainPage -->
-      <?php include "footer.tpl.php";?>
+      <?php include "inc_footer.php";?>

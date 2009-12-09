@@ -1,4 +1,4 @@
-<?php include "header.tpl.php"; ?>  
+<?php include "inc_header.php"; ?>  
  <!-- ______________________ LAYOUT PAGE LYCEE _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
@@ -8,18 +8,7 @@
       
        <!-- ______________________ COLONNE GAUCHE _______________________ -->
 		
-			  <?php if ($left): ?>
-         <div id="left-content">
-		 <?php if ($search_box) : ?>
-				<div id="recherche">
-				<?php print $search_box ?>
-				</div><!-- //div recherche -->
-			<?php endif; ?>
-            <?php print $left; ?>
-          </div>
-             <?php endif; ?> <!-- /sidebar-left -->
-		
-		<!--fin du contenu gauche -->
+			<?php include "inc_left_content.php";?>
         
         <div id="content-inner" class="inner column lycee">
 		
@@ -84,6 +73,6 @@
 		  
 	 </div> <!-- /contentPage -->
 	  
-	  <?php include "footer.tpl.php";?>
+	  <?php include "inc_footer.php";?>
     
      

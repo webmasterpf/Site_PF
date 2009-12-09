@@ -1,4 +1,4 @@
-<?php include "header.tpl.php"; ?>  
+<?php include "inc_header.php"; ?>  
   <!-- ______________________ CONTENU _______________________ -->
   
       <div id="contentPage">
@@ -7,14 +7,7 @@
       
        <!-- ______________________ COLONNE GAUCHE _______________________ -->
 		
-			  <?php if ($left): ?>
-         <div id="left-content">
-		 		
-            <?php print $left; ?>
-          </div>
-             <?php endif; ?> <!-- /sidebar-left -->
-		
-		<!--fin du contenu gauche -->
+			  <?php include "inc_left_content.php";?>
         
         <div id="content-inner" class="inner column center">
 		
@@ -84,6 +77,6 @@
 		  
 	 </div> <!-- /contentPage -->
 	  
-	  <?php include "footer.tpl.php";?>
+	  <?php include "inc_footer.php";?>
     
      
