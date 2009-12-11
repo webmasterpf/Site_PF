@@ -195,29 +195,28 @@ ul.nice-menu-down li a:hover {
 ul.nice-menu-down li.menuparent ul {
 margin: 40px 0 0 0;
 background: none;
-list-style-type: round;
+list-style-type:square;
 }
  
-ul.nice-menu-down li.menuparent  li {
+ul.nice-menu-down li.menuparent ul li {
   border: 0;
   background: none;
-
+ list-style-type:square;
 }
 
-ul.nice-menu-down li.menuparent li a{
+ul.nice-menu-down li.menuparent ul li a{
   background: none;
   border: 0;
   width: auto;
   height: auto;
   color:#156597;
+  list-style-type:square;
 }
 ul.nice-menu-down li.menuparent li a:hover{
  color:#ebebeb;
 }
 
-ul.nice-menu-down li.active-trail ul li.active-trail a{
-	background: green;
-}
+
 ul.nice-menu-down ul {
   left: 0; /* LTR */
 }
@@ -236,11 +235,6 @@ ul.nice-menu-down li ul li ul,
   left: 12.5em; /* LTR */
   top: -1px;
 }
-
-
-
-
-
 
 ul.nice-menu-down li.menuparent,
 /* Repeat for Garland header. */
@@ -262,15 +256,6 @@ ul.nice-menu-down li.over,
 ul.nice-menu-down li li.menuparent,
 /* Repeat for Garland header. */
 #header-region ul.nice-menu-down li li.menuparent {
-
-
-
-
-
-
-
-
-
   background: #eee url(arrow-right.png) right center no-repeat; /* LTR */
 }
 
@@ -287,10 +272,15 @@ display:none;
 }
 /*********************************************************************************************/
 /***************************Differencier les menus: ajouter l'active trail ***********************************/
-
-ul#nice-menu-1 li.active-trail a, ul#nice-menu-2 li.active-trail >a{
+/*, ul#nice-menu-2 li.active-trail >a  pour le second menu*/
+ul#nice-menu-1 li.active-trail a{
 	color:#ebebeb;
 	background: #156597;
+}
+/*active trail pour les sous rubriques*/
+ul#nice-menu-1  li.active-trail ul li.active-trail a{
+	background: none;
+	text-decoration: underline;
 }
 /*********************************************************************************************/
 /*********************************************************************************************/
