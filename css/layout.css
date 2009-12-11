@@ -1,0 +1,127 @@
+/**
+ * @file
+ * Stark layout method
+ *
+ * To avoid obscuring CSS added to the page by Drupal or a contrib module, the
+ * Stark theme itself has no styling, except just enough CSS to arrange the page
+ * in a traditional "Header, sidebars, content, and footer" layout.
+ *
+ * This layout method works reasonably well, but shouldn't be used on a
+ * production site because it can break. For example, if an over-large image
+ * (one that is wider than 20% of the viewport) is in a sidebar, the entire
+ * #main content can shift completely below the sidebar.
+ */
+
+html {
+ margin: 0;
+ padding: 0;
+}
+
+
+body {
+	margin: 0;
+	padding:10px 0 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #f3f3f3;
+	color: #000;
+}
+
+ /*------------------------------------------------------*
+  *--------    CSS BLOCS     						 ----*
+  *------------------------------------------------------*/
+
+
+#general{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+/*Haut de page  HEADER*/
+
+#header{
+	margin:0 auto;
+	padding:0;
+	width:990px;
+	height:auto;
+	background:none;
+}
+
+/*Contenu de page  CONTENT */
+
+#contentPage {
+	margin:0 auto;
+	padding:0;
+	width: 990px;
+	background:#ffffff url("../images/bg_colonne_g_rp.jpg") repeat-y top left;
+}
+#content-inner,#left-content,#right-content{
+height: 100%;
+}
+/*//////SOUS ENTETE/////*/
+#content-top{
+	margin:0 auto;
+	padding:0;
+	width:auto;
+	height:auto;
+	/*background-color: #999;*/
+	}
+	
+/*/// debut des colonnes ///*/
+#left-content{
+	float:left;
+	position:relative;
+	padding:10px 0 0 5px;
+	width:200px;
+	left:0px;
+}
+
+/*/// partie de droite ///*/
+#right-content{
+	float:right;
+	position:relative;
+	padding:10px 0 5px 0;
+	width:200px;
+	right:0px;
+}
+/*inner content*/
+#content-inner{
+width:580px;
+margin:0 auto;
+float:left;
+padding: 10px 0 0 0;
+}
+/*///    partie du centre   ///*/
+#middle-content{
+	float:left;
+	position:relative;
+	/*background-color:yellow;*/
+	width:580px;
+	padding:5px;
+}
+.swftools-wrapper wijering-imagerotator{
+margin: 0 auto;
+width: auto;
+border: 1px solid #000;
+}
+/*PIED DE CONTENU*/
+#content-bottom{
+background:#EFEFEF none repeat scroll 0 0;
+margin:0 auto;
+padding:3px 0 3px 2px;
+width:988px;
+
+}
+
+/*Bas de page  FOOTER*/
+
+#footer{
+	margin:0 auto;
+	padding:10px 0;
+	width:990px;
+	border-top: 2px solid #156597;
+	background-color:transparent;
+	text-align: center;
+	color: #156597;
+}

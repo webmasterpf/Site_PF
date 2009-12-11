@@ -1,0 +1,29 @@
+/*Layout page lycée*/
+
+.inner column lycee{
+width:790px;
+margin:0 auto;
+float:left;
+}
+#middle-content-lycee{
+width:790px;
+margin:0 auto;
+float:left;
+}
+/*table qui contient les zones de la fiche*/
+#fiche_tb {
+width:785px;
+margin:0 auto;
+border:0;
+}
+.photo_illus{
+padding: 15px;
+margin:0;
+}
+.plan{
+border:1px solid #156597;
+margin:15px;
+width:auto;
+padding: 0;
+}
+#content-bottom-lycee{}
