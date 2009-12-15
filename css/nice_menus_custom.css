@@ -194,7 +194,7 @@ ul.nice-menu-down li a:hover {
 }
 /*Style sous rubriques*/
 ul.nice-menu-down li.menuparent ul {
-margin: 40px 0 0 0;
+margin: 50px 0 0 0;
 background: none;
 
 }
@@ -207,11 +207,13 @@ ul.nice-menu-down li.menuparent ul li {
 }
 
 ul.nice-menu-down li.menuparent ul li a{
-  background: transparent url(../images/puce.png) no-repeat 15px;
+  background: transparent url(../images/..puce.png) no-repeat 15px;
   border: 0;
   width: auto;
   height: auto;
   color:#156597;
+  text-align:left;
+  padding: 0 0 0 5px;
   
 }
 ul.nice-menu-down li.menuparent ul li a:hover{
