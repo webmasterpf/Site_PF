@@ -83,7 +83,7 @@ text-decoration:underline;
 }
 /**style du bloc recherche**/
 /*recherche home*/
-#recherche-home{
+#recherche-home,#google-cse-searchbox-form{
  padding: 5px;
  background:#DFDFDF;
  text-align:center;

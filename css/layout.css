@@ -105,6 +105,10 @@ margin: 0 auto;
 width: auto;
 border: 1px solid #000;
 }
+.box{
+margin:0;
+padding: 5px;
+}
 /*PIED DE CONTENU*/
 #content-bottom{
 background:#EFEFEF none repeat scroll 0 0;
