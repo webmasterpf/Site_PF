@@ -219,6 +219,11 @@ ul.nice-menu-down li.menuparent ul li a{
 ul.nice-menu-down li.menuparent ul li a:hover{
  color:#ebebeb;
 }
+
+/*masquage des guillemets pour sous menus*/
+.sf-sub-indicator{
+display:none;
+}
 /**************************/
 /*Style sous sous rubriques*/
 ul.nice-menu-down li.menuparent ul li.menuparent ul{

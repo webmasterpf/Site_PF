@@ -71,11 +71,12 @@ padding:5px;
 }
 
 #name-and-slogan{
+	float:right;
 	height:200px;
 	width:790px;
-	vertical-align:bottom;
 	background:orange url(../images/bg_header.jpg) no-repeat top left;
-	float:right;
+	vertical-align:bottom;
+	
 }
 #site-name a{
 text-decoration: none;
